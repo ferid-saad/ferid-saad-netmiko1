@@ -29,6 +29,10 @@ print(config_output)
 net_connect.disconnect()
 
 
+def dire_salut():
+  print("Salut, Git!")
+  dire_salut()
+
 def acces_netmiko():
 # Affiche la date coté routeur
 # Affiche les interfaces du routeur dans un fichier interfaces.txt
